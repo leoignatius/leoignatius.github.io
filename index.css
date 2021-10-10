@@ -80,6 +80,13 @@ a{
     padding-left: 10vh;
     padding-bottom: 5vh;
     border-radius: 20px;
+    width: auto;
+    text-align: left;
+    justify-content: space-evenly;
+}
+
+.li{
+    text-align: left;
 }
 
 h1{
@@ -278,6 +285,7 @@ h1{
         padding-left: 1vh;
     }
 
+    
     h1{
         margin-bottom: 2vh;
     }
@@ -294,9 +302,11 @@ h1{
     }
 
     .course-button{
-        width: 15vh;
+        width: 20vh;
         margin: auto;
+        white-space:nowrap;
     }
+
 
     .course-item{
         align-items: center;
@@ -305,6 +315,8 @@ h1{
 
     .upper, .lower{
         flex-direction: column;
+        margin-right: 1vh;
+        
     }
 
     .item3-container{
@@ -340,7 +352,7 @@ h1{
     }
 
     .edu-details li{
-        font-size: 0.5vh;
+        font-size: 1vh;
     }
 
     .contact-info{
@@ -348,6 +360,11 @@ h1{
         align-items: center;
         justify-content: center;
         width: auto;
+    }
+
+    .contact{
+        width: auto;
+        
     }
 }
 
