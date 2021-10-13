@@ -16,6 +16,7 @@ a{
 }
 h1{
     color: #0478FF;
+    margin: 0;
 }
 
 .body-container{
@@ -264,6 +265,10 @@ h1{
     color: white;
 }
 
+h1{
+
+    margin: 0;
+}
 
 
 
